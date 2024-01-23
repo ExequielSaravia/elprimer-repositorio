@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+}
+header {
+    display: flex;
+    max-width: 1200;
+    min-height: 70px;
+    justify-content: space-between;
+    background-color: #CBAE3A;
+    align-items: center;
+    padding: 10px;
+}
+a {text-decoration: none;}
+
+.logo img {
+    height: 80px;
+    margin-right: 10px;
+}
+nav a {
+    
+    font-weight: 1500px;
+    padding-right: 10px;
+    color: black;
+}
+nav a:hover{
+    color: maroon;
+    
+}
+
+
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;}
+        nav{
+            padding: 10px 0px;
+        }
+    }
+
+.productos {
+        max-width: 1200px;
+        max-height: 1200px;
+        display: flex;
+        align-items: center;
+        flex: wrap;
+        justify-content: space-around;
+        background-color: #C2D345;
+        padding-top: 30px;
+        flex-wrap: wrap;
+
+}
+.producto {
+        display: flex;
+        height: 350px;
+        margin: 10px;
+        
+    }
+
+.mate-name {
+    display: flex;
+    color: black;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.container {
+    
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer{
+    
+    background-color: #CBAE3A ;
+    padding: 80px 0;
+}
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links{
+    display: flex;
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-links h4 {
+   font-size: 20px;
+   color: floralwhite;
+   margin-bottom: 25px;
+   font-weight: 500;
+   border-bottom: 2px solid black;
+   display: inline-block;
+   padding-bottom: 10px;
+}
+
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: blueviolet;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+
+
+}
+
+.footer-links ul li a:hover {
+    color:red;
+    padding-left: 6px;
+
+}
+
+.social-link {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50;
+    color:chocolate;
+    transition: all .5s ease;
+}
+
+    @media(max-width:991px) {
+        .footer-row{
+            text-align: center;
+        }
+        .footer-links {
+            width: 100%;
+            margin-bottom: 30px;
+
+        }
+
+
+    }
